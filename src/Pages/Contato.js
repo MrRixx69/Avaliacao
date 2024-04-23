@@ -13,12 +13,12 @@ function Ctt(){
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Label>Nome:</Form.Label>
-          <Form.Control type="email" placeholder="Insira seu Nome" />
+          <Form.Control type="text" placeholder="Insira seu Nome" />
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridPassword">
           <Form.Label>Telefone</Form.Label>
-          <Form.Control type="password" placeholder="Insira seu telefone" />
+          <Form.Control type="number" placeholder="Insira seu telefone" />
         </Form.Group>
       </Row>
 
