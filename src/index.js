@@ -17,22 +17,28 @@ import Sobre from "./Pages/Sobre";
 const router = createBrowserRouter([
   {
 
-    path: "/1",
+    path: "/Home",
     element: <Home />,
 
   },
   {
 
-    path: "/2",
+    path: "/Contato",
     element: <Contato />,
 
   },
   {
 
-    path: "/3",
-    elemnte: <Sobre />
+    path: "/Sobre",
+    element: <Sobre />
 
-  }
+  },
+  {
+
+    path: "/login",
+    element: <login />
+
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

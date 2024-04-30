@@ -1,0 +1,13 @@
+.bg-body-primary{
+
+    background: transparent;
+    backdrop-filter: blur(2px);
+    color: white;
+
+}
+
+.FontNav{
+
+    color: white;
+
+}
